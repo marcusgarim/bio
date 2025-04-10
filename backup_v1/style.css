@@ -106,7 +106,6 @@ body {
   width: 100%;
   height: auto;
   object-fit: contain; 
-}
 
 /* Animação de fadeInUp */
 @keyframes fadeInUp {
@@ -122,93 +121,4 @@ body {
 .card {
   opacity: 0;
   animation: fadeInUp 1s ease-in-out forwards; 
-}
-
-/* Responsividade para telas menores */
-@media (max-width: 768px) {
-  .layout {
-    flex-direction: column; 
-    align-items: center;
-    gap: 2rem;
-    padding: 2rem 1rem;
-  }
-
-  /* Área de perfil */
-  .profile {
-    width: 100%; 
-    text-align: center;
-    margin-bottom: 2rem; 
-  }
-
-  .profile img {
-    width: 120px; 
-    height: 120px;
-    object-fit: cover;
-    margin-bottom: 1rem;
-  }
-
-  .title {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 0.5rem 0; 
-  }
-
-  .subtitle {
-    font-size: 1rem;
-    color: #ccc;
-    margin-bottom: 1rem;
-  }
-
-  .description {
-    font-size: 0.9rem;
-    line-height: 1.6;
-    color: #ccc;
-    max-width: 90%; 
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-
-  /* Títulos das seções */
-  .section-title {
-    font-size: 1.2rem;
-    margin-bottom: 1rem; 
-    text-align: center; 
-  }
-
-  /* Área de cards */
-  .cards {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-  }
-
-  .card {
-    text-align: center;
-  }
-
-  .card img {
-    width: 200px; 
-    height: auto; 
-    margin-bottom: 1rem; 
-  }
-
-  .card p {
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin: 0;
-    color: #fff; 
-  }
-
-  .card span {
-    font-size: 0.9rem;
-    color: #ccc;
-  }
-
-  .card-linkedin,
-  .card-github,
-  .card-portfolio {
-    width: 90%;
-    height: auto;
-  }
-}
+}}
