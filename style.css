@@ -5,12 +5,18 @@ body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding-top: 2rem; 
-  background-color: #0f0f0f;
+  background: linear-gradient(160deg, rgba(38, 38, 38, 1) 35%, rgba(0, 0, 0, 1) 100%);
   color: #fff;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-size: cover; 
+  padding: 100;
+  flex-direction: column;
 }
 
 /* Layout principal */
@@ -20,7 +26,7 @@ body {
   height: 90vh;
   gap: 2.7rem; 
   align-items: flex-start;
-}
+  }
 
 /* Área de perfil - 35% */
 .profile {
@@ -175,8 +181,9 @@ body {
   /* Títulos das seções */
   .section-title {
     font-size: 1.2rem;
-    margin-bottom: 1rem; 
-    text-align: center; 
+    text-align: left; 
+    padding-left: 5%;
+    margin-bottom: -1rem;
   }
 
   /* Área de cards */
@@ -226,6 +233,6 @@ body {
     font-size: 10px;
     color: #ccc;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 }
