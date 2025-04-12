@@ -32,3 +32,6 @@ Este é um site desenvolvido para reunir as minhas principais informações de c
 1. **Clone o repositório**:
    ```bash
    git clone https://github.com/marcusgarim/bio
+---
+
+![Sou uma imagem](/images/Asset.png)
