@@ -16,7 +16,6 @@ Este é um site desenvolvido para reunir as minhas principais informações de c
 ---
 
 
-
 ## **Tecnologias Utilizadas**
 
 - **HTML5**: Estrutura semântica do site.
