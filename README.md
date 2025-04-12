@@ -28,6 +28,7 @@ Este é um site desenvolvido para reunir as minhas principais informações de c
 ## **Como Rodar o Projeto**
 
 1. **Clone o repositório**:
+
    ```bash
    git clone https://github.com/marcusgarim/bio
 ---
